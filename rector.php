@@ -3,7 +3,6 @@
 use App\CustomInterface;
 use App\CustomProcessor;
 use Rector\Config\RectorConfig;
-
 use function RectorPrefix202308\Symfony\Component\DependencyInjection\Loader\Configurator\tagged_iterator;
 
 return static function (RectorConfig $rectorConfig): void {
